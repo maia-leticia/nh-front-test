@@ -1,5 +1,4 @@
 import TestimonialCard from './TestimonialCard.tsx';
-import styles from './Testimonials.module.css';
 
 const Testimonials = () => {
   const testimonials = [
@@ -18,10 +17,10 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className={styles.testimonials}>
-      <div className={styles.container}>
-        <span className={styles.title}>OUÇA DE QUEM JÁ ASSINOU!</span>
-        <div className={styles.testimonialGrid}>
+    <section className="md:py-4 py-8 bg-[#fef3c7] flex flex-col justify-center items-center">
+      <section className="max-w-7xl  px-4 md:px-8 flex flex-col justify-center items-center">
+        <h2 className="md:text-[32px] text-2xl  font-bold text-[#dc2626] text-center md:mb-2 mb-8 ">OUÇA DE QUEM JÁ ASSINOU!</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8 gap-6 max-w-[1100px] m-auto">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard
               key={index}
@@ -30,8 +29,8 @@ const Testimonials = () => {
             />
           ))}
         </div>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 };
 
