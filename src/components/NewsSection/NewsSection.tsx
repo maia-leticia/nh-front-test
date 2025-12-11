@@ -6,13 +6,13 @@ const NewsSection = () => {
     title: 'NeuralAI Lab - Melhorando a Interpretabilidade da IA em Imagens Médicas',
     author: 'Dr. Pedro Silva',
     date: '24 de Abril de 2024',
-    excerpt: 'A principal barreira para IA na saúde é o problema da "Caixa Preta". Para a maioria dos sistemas de IA, é difícil interpretar o modelo e entender por que eles fazem um determinado diagnóstico ou recomendações...'
+    excerpt: 'NeuralAI Lab desenvolve métodos avançados para tornar modelos de IA mais transparentes em diagnósticos por imagem, revelando como a IA toma decisões e ajudando médicos a confiar mais nos resultados. O foco é unir precisão algorítmica e interpretabilidade para melhorar a segurança e a eficácia clínica.'
   };
 
   const articles = [
     {
       title: 'IA como Ponte de Aprendizado: Navegando o Dia a Dia da Codificação à Engenharia de Software',
-      subtitle: 'A principal barreira para IA na saúde é o problema da "Caixa Preta". Para a maioria dos sistemas de IA, é difícil interpretar o modelo e entender por que eles fazem um determinado diagnóstico ou recomendações...',
+      subtitle: 'A IA atua como uma ponte de aprendizado contínuo, ajudando desenvolvedores a evoluir da simples codificação para a engenharia de software completa. Ela agiliza o entendimento de conceitos complexos, acelera a resolução de problemas e orienta boas práticas. Com isso, o aprendizado diário se torna mais eficiente, estruturado e guiado.',
       author: 'Hemilio Lu',
       date: '24 - Abril - 2024'
     },
@@ -37,16 +37,16 @@ const NewsSection = () => {
   ];
 
   return (
-    <div className="md:py-4 py-2 bg-[#e0e7ff]" id="article">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="bg-[#fce7f3] rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.1)] max-h-[600px]">
+    <section className="md:py-4 py-10 " id="article">
+      <section className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <section className="bg-white rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.1)] max-h-[600px] mb-5">
           <FeaturedArticle article={featuredArticle} />
-        </div>
-        <div className="flex flex-col gap-6">
+        </section>
+        <section className="flex flex-col gap-6">
           <ArticleList articles={articles} />
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </section>
   );
 };
 

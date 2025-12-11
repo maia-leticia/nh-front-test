@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header/Header.tsx";
 import Hero from "./components/Hero/Hero.tsx";
 import Features from "./components/Features/Features.tsx";
