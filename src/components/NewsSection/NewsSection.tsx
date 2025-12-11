@@ -37,7 +37,7 @@ const NewsSection = () => {
   ];
 
   return (
-    <section className="md:py-4 py-10 " id="article">
+    <section className=" py-10 " id="article">
       <section className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <section className="bg-white rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.1)] max-h-[600px] mb-5">
           <FeaturedArticle article={featuredArticle} />
