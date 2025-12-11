@@ -3,6 +3,8 @@
 Este projeto consiste na refatoração de uma landing page da newsletter **E-MergingTech**, originalmente criada com CSS Modules. O objetivo foi **converter todo o CSS para TailwindCSS**, corrigir o design para que ficasse igual à referência fornecida e adicionar uma nova seção “Sobre Nós” (`#about`) destacando a equipe e missão da newsletter.
 
 ---
+![Screenshot da Landing Page](src/assets/screenshot.png)
+---
 
 ## Funcionalidades implementadas
 
