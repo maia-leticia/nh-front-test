@@ -1,5 +1,4 @@
 import FeatureCard from './FeatureCard.tsx';
-import styles from './Features.module.css';
 
 const Features = () => {
   const features = [
@@ -21,17 +20,18 @@ const Features = () => {
   ];
 
   return (
-    <div className={styles.features}>
-      <div className={styles.container}>
-        <div className={styles.imageSection}>
-          <div className={styles.buildingIllustration}>
-            <div className={styles.buildingPlaceholder}>
-              <span className={styles.buildingIcon}>🏢</span>
+    <div className="md:py-2 py-4  bg-gray-100">
+      <div className="max-w-7xl m-auto px-8 gap-3 grid grid-cols-1 lg:grid-cols-2 md:px-4">
+        <div className="flex items-center justify-center -order-1">
+          <div className="w-full max-w-[400px]">
+            <div className="bg-[linear-gradient(135deg,#ec4899_0%,#f43f5e_50%,#ef4444_100%)] rounded-4xl py-16 px-8 flex items-center justify-center shadow-2xl shadow-[#00000017] relative 
+            before:content-[''] before:absolute before:bottom-0 before:left-0 before:right-0 before:h-1/2 ">
+              <span className="md:text-9xl drop-shadow-xl text-8xl">🏢</span>
             </div>
-            <div className={styles.atomBadge}>⚛️</div>
+            <div className="absolute -bottom-4 -right-4 bg-white rounded-full w-[60px] h-[60px] text-3xl md:w-20 md:h-20 flex justify-center items-center md:text-4xl shadow-lg">⚛️</div>
           </div>
         </div>
-        <div className={styles.featureCards}>
+        <div className="flex flex-col gap-8 min-h-[400px] justify-center items-center">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}

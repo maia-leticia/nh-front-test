@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer.tsx";
 function App() {
   return (
     <div className="app">
-      <Header />
+      <Header /> 
       <Hero />
       <Features />
       <SubscriptionForm variant="blue" />
