@@ -1,6 +1,6 @@
 const HeroStats = () => {
   return (
-    <section className="flex gap-8 items-center mt-4 ">
+    <section className="flex gap-8 items-center mt-4 flex-col lg:flex-row">
       <article className="flex gap-1 items-center px-1 py-3 bg-white border border-[#e5e7eb] rounded-lg shadow-sm shadow-[#0000001a]">
         <span className="text-3xl">
           📧
