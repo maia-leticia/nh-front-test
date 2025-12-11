@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer.tsx";
 
 function App() {
   return (
-    <div className="app">
+    <main className="app">
       <Header /> 
       <Hero />
       <Features />
@@ -19,7 +19,7 @@ function App() {
       <Testimonials />
       <CallToAction />
       <Footer />
-    </div>
+    </main>
   );
 }
 
