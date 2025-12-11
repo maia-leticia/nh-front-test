@@ -6,12 +6,14 @@ import NewsSection from "./components/NewsSection/NewsSection.tsx";
 import Testimonials from "./components/Testimonials/Testimonials.tsx";
 import CallToAction from "./components/CallToAction/CallToAction.tsx";
 import Footer from "./components/Footer/Footer.tsx";
+import About from "./components/About/About.tsx";
 
 function App() {
   return (
     <main className="app">
       <Header /> 
       <Hero />
+      <About />
       <Features />
       <SubscriptionForm variant="blue" />
       <NewsSection />
