@@ -1,7 +1,5 @@
 import FeaturedArticle from './FeaturedArticle.tsx';
 import ArticleList from './ArticleList.tsx';
-import styles from './NewsSection.module.css';
-
 const NewsSection = () => {
   const featuredArticle = {
     image: '🧠',
@@ -39,12 +37,12 @@ const NewsSection = () => {
   ];
 
   return (
-    <div className={styles.newsSection} id="article">
-      <div className={styles.container}>
-        <div className={styles.featuredColumn}>
+    <div className="md:py-4 py-2 bg-[#e0e7ff]" id="article">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="bg-[#fce7f3] rounded-2xl overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.1)] max-h-[600px]">
           <FeaturedArticle article={featuredArticle} />
         </div>
-        <div className={styles.listColumn}>
+        <div className="flex flex-col gap-6">
           <ArticleList articles={articles} />
         </div>
       </div>
