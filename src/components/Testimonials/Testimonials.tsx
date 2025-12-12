@@ -19,7 +19,7 @@ const Testimonials = () => {
   return (
     <section className=" py-15 bg-white flex flex-col justify-center items-center">
       <section className="max-w-7xl  px-4 md:px-8 flex flex-col justify-center items-center">
-        <h2 className="md:text-[32px] text-2xl  font-bold text-black text-center md:mb-2 mb-8 ">OUÇA DE QUEM JÁ ASSINOU!</h2>
+        <h2 className="md:text-[32px] text-2xl  font-bold text-black text-center  mb-8 ">OUÇA DE QUEM JÁ ASSINOU!</h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8 gap-6 max-w-[1100px] m-auto">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard

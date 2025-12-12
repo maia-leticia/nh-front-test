@@ -9,11 +9,11 @@ const TopicsList = ({ topics }: TopicsListProps) => {
         Conteúdos Mais Discutidos
       </h3>
 
-      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-12">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-12 ">
         {topics.map((topic) => (
           <li
             key={topic}
-            className="flex items-center gap-2 px-4 py-3 bg-card rounded-lg border border-border bg-[#0a1a41]"
+            className="flex items-center justify-center gap-2 px-4 py-3 bg-card rounded-lg border border-border bg-[#0a1a41]"
           >
             <span className="text-white" aria-hidden="true">✓</span>
             <span className="text-white text-sm">{topic}</span>

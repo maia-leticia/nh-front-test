@@ -36,7 +36,7 @@ const About = () => {
     ];
 
     return (
-        <section id="about" className="py-12 md:py-16 bg-white overflow-hidden">
+        <section id="about" className="py-8  bg-white overflow-hidden">
             <section className="max-w-7xl mx-auto md:px-8 px-4">
                 <h2 className="md:text-[32px] text-2xl font-bold text-brand-highlight text-center mb-8 md:mb-12">
                     SOBRE NÓS
