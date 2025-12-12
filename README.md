@@ -2,8 +2,7 @@
 
 Este projeto consiste na refatoração de uma landing page da newsletter **E-MergingTech**, originalmente criada com CSS Modules. O objetivo foi **converter todo o CSS para TailwindCSS**, corrigir o design para que ficasse igual à referência fornecida e adicionar uma nova seção “Sobre Nós” (`#about`) destacando a equipe e missão da newsletter.
 
----
-![Screenshot da Landing Page](src/assets/screenshot.png)
+
 ---
 
 ## Funcionalidades implementadas
@@ -33,7 +32,6 @@ Este projeto consiste na refatoração de uma landing page da newsletter **E-Mer
 
 * Vite (ferramenta de build e dev server)
 
-HTML5 semântico e boas práticas de acessibilidade
 ---
 
 ## Instalação e execução
@@ -61,9 +59,8 @@ npm run dev
 * Abra seu navegador e vá para http://localhost:5173 (porta padrão do Vite).
 
 ---
+## Antes:
+![Screenshot do antes da Landing Page](src/assets/before-screenshot.png)
 
-## Observações
-
-* Todos os estilos foram migrados para **TailwindCSS**, removendo CSS Modules.
-* A página é totalmente responsiva e acessível.
-* A seção “Sobre Nós” reforça a credibilidade da newsletter, integrando-se ao restante do layout.
+## Depois:
+![Screenshot do depois da Landing Page](src/assets/after-screenshot.png)
