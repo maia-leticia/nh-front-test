@@ -5,7 +5,7 @@ type TopicsListProps = {
 const TopicsList = ({ topics }: TopicsListProps) => {
   return (
     <>
-      <h3 className="text-xl font-semibold text-foreground text-center mb-6">
+      <h3 className="text-xl font-semibold text-center mb-6">
         Conteúdos Mais Discutidos
       </h3>
 
@@ -13,7 +13,7 @@ const TopicsList = ({ topics }: TopicsListProps) => {
         {topics.map((topic) => (
           <li
             key={topic}
-            className="flex items-center justify-center gap-2 px-4 py-3 bg-card rounded-lg border border-border bg-[#0a1a41]"
+            className="flex items-center justify-center gap-2 px-4 py-3  rounded-lg border bg-[#0a1a41]"
           >
             <span className="text-white" aria-hidden="true">✓</span>
             <span className="text-white text-sm">{topic}</span>
